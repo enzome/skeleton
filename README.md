@@ -25,6 +25,11 @@ In case you want to use a custom app dir name (e.g. `/appname/`):
 composer create-project --prefer-dist enzome/skeleton appname
 ```
 
+Run the migrations to create the basic user tables
+```
+bin/cake migraations migrate
+```
+
 You can now either use your machine's webserver to view the default home page, or start
 up the built-in webserver with:
 
@@ -33,6 +38,8 @@ bin/cake server -p 8765
 ```
 
 Then visit `http://localhost:8765` to see the welcome page.
+
+You will be asked to provide a password and an e-mail address. Since no user is in the database, create one with the link after the form, and use that account to log in.
 
 ## Update
 
