@@ -1,4 +1,4 @@
-# CakePHP Application Skeleton
+# Application Skeleton with Authentication (JWT too), Authorization and API CakePHP
 
 [![Build Status](https://img.shields.io/github/workflow/status/cakephp/app/CakePHP%20App%20CI/master?style=flat-square)](https://github.com/cakephp/app/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
@@ -16,13 +16,13 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 If Composer is installed globally, run
 
 ```bash
-composer create-project --prefer-dist cakephp/app
+composer create-project --prefer-dist enzome/skeleton
 ```
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+In case you want to use a custom app dir name (e.g. `/appname/`):
 
 ```bash
-composer create-project --prefer-dist cakephp/app myapp
+composer create-project --prefer-dist enzome/skeleton appname
 ```
 
 You can now either use your machine's webserver to view the default home page, or start
